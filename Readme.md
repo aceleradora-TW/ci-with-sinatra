@@ -1,5 +1,20 @@
 # CI with Sinatra
 
+Sample app to test against different CI server providers. Like the following:
+
+- Travis
+- Circle
+- Shippable
+- Wrecker
+- Drone
+- Lambda
+- Codeship
+- GitLab
+- Heroku
+- Bitrise
+- Magnum
+- GoCD
+
 ### Step by step sinatra setup
 
 Bundle:
