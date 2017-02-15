@@ -7,7 +7,7 @@ class Hello < Sinatra::Base
   end
 
   get '/hello' do
-    messages.hello
+    messages.dumbass
   end
 
 end

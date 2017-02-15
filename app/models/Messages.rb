@@ -4,4 +4,8 @@ class Messages
     'Hello'
   end
 
+  def dumbass
+    'Dumbass Ruby!'
+  end
+
 end
