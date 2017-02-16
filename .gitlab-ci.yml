@@ -4,14 +4,8 @@ before_script:
   - gem install bundler
   - bundle install
 
-stages:
-  - unit_test
-  - reunit_test
+unit_test:
+  script: make test-unit
 
-unit_test_job:
-  script: "make test-unit"
-  stage: "unit_test"
-
-reunit_test_job:
-  script: "make test-unit"
-  stage: "reunit_test"
+reunit_test:
+  script: make test-unit
