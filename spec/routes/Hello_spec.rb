@@ -15,7 +15,7 @@ describe 'Unit: Route: Hello' do
 
     allow_any_instance_of(Messages).to receive(:dumbass).and_return('Dumbass')
 
-    get '/hello'
+    get '/dumbass'
 
     expect(last_response).to be_ok
     expect(last_response.body).to eq('Dumbass')
