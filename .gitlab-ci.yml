@@ -1,0 +1,6 @@
+stages:
+  - unit_test
+
+unit_test_job:
+  script: "make test-unit"
+  stage: "unit_test"
