@@ -83,7 +83,7 @@ Nice to haves:
 - Come as a service
 - Very Well documented
 
-### Wrecker CI
+### Wercker CI
 
 Status: `testing`
 
