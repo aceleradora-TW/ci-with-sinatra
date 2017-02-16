@@ -4,6 +4,10 @@ before_script:
   - gem install bundler
   - bundle install
 
+stages:
+  - unit_test
+  - reunit_test
+
 unit_test:
   script: make test-unit
 
