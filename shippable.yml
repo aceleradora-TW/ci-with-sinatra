@@ -1,0 +1,4 @@
+language: ruby
+
+ci:
+  - bundle exec rspec
