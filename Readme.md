@@ -75,6 +75,7 @@ Pros:
 
 Cons:
 - We must migrate to GitLab
+- UI Requires manual refresh
 - Excessively slow (a simple unit test stage takes 5 minutes)
 
 Nice to haves:
