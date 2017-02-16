@@ -10,6 +10,9 @@ Circle CI:
 Travis CI:
 [![Build Status](https://travis-ci.org/othman853/ci-with-sinatra.svg?branch=master)](https://travis-ci.org/othman853/ci-with-sinatra)
 
+Wercker CI:
+[![wercker status](https://app.wercker.com/status/255b8335a580273700aded82ac01ea0d/s/master "wercker status")](https://app.wercker.com/project/byKey/255b8335a580273700aded82ac01ea0d)
+
 GitLab Pipeline:
 ![Build Status](https://gitlab.com/othman853/ci-with-sinatra/badges/master/build.svg)
 
