@@ -9,3 +9,7 @@ r:install
 
 test-unit:
 	bundle exec rspec spec/unit
+
+push:
+	git push origin master
+	git push lab master
