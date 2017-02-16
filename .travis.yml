@@ -2,6 +2,6 @@ language: ruby
 rvm:
   - 2.3.0
 install:
-  - bundle install
+  - make install
 script:
-  - bundle exec rspec
+  - make test

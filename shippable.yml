@@ -1,4 +1,4 @@
 language: ruby
 
 ci:
-  - bundle exec rspec
+  - make test
