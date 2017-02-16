@@ -3,23 +3,22 @@ require 'rack/test'
 require 'test/unit'
 
 require_relative '../../app/routes/Hello.rb'
-require_relative '../../app/models/Messages.rb'
 
 describe 'Unit: Route: Hello' do
   include Rack::Test::Methods
 
-  # messages = double(Messages, :dumbass => 'Fuck you ruby')
-
   def app
-    Hello.new Messages.new
+    Hello.new
   end
 
-  it 'says Dumbass Ruby!' do
+  it 'says Dumbass!' do
+
+    allow_any_instance_of(Messages).to receive(:dumbass).and_return('Dumbass')
 
     get '/hello'
 
     expect(last_response).to be_ok
-    expect(last_response.body).to eq('Hello World')
+    expect(last_response.body).to eq('Dumbass')
 
   end
 
