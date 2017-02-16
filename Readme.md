@@ -10,6 +10,9 @@ Circle CI:
 Travis CI:
 [![Build Status](https://travis-ci.org/othman853/ci-with-sinatra.svg?branch=master)](https://travis-ci.org/othman853/ci-with-sinatra)
 
+GitLab Pipeline:
+![Build Status](https://gitlab.com/othman853/ci-with-sinatra/badges/master/build.svg)
+
 ## CI Providing Constraints
 
 Aspects to take into account when testing a CI provider.
