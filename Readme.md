@@ -45,7 +45,6 @@ Nice to haves:
 - Well documented
 - Come as a service
 
-
 ### Circle CI
 
 Status: `testing`
@@ -57,6 +56,23 @@ Cons:
 - UI is not very didactical:
   - Build status info is segregated between two pages
   - Why does it take the whole screen to show me basic build info?
+
+Nice to haves:
+- Easily configurable
+- Come as a service
+- Well documented
+
+### GitLab Pipelines
+
+Status: `testing`
+
+Pros:
+- Easy to integrate with
+- Easy to configure (a little confusing, but not rocket science)
+
+Cons:
+- We must migrate to GitLab
+- Excessively slow (a simple unit test stage takes 5 minutes)
 
 Nice to haves:
 - Easily configurable
@@ -85,7 +101,6 @@ Nice to haves:
 - Drone
 - Lambda
 - Codeship
-- GitLab
 - Heroku
 - GoCD
 
