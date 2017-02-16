@@ -9,7 +9,7 @@ stages:
   - reunit_test
 
 unit_test:
-  stage: test
+  stage: unit_test
   script: make test-unit
 
 reunit_test:
