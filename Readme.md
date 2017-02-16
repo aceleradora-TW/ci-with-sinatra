@@ -6,6 +6,8 @@ Sample app to test against different CI server providers. Like the following:
   - :white_check_mark: Allow building different branches (could be used along another CI)
   - :x: Too hard to override default commands
 - Circle
+  - :white_check_mark: Very fast
+  - :white_check_mark: Easy setup
   - :x: Identified `rspec` as runner, but fail to execute it through `bundle exec` with parameters
   - :x: Why Do I have to open two pages to see my build status?
   - :x: Why does it take the whole screen to show me basic build info?
