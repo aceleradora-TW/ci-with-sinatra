@@ -115,6 +115,7 @@ echo 'gem "sinatra"' >> Gemfile
 
 ## Running
 - `make run`
+- `make r` (hot reloads)
 
 ## Testing
 - `make test`
