@@ -7,5 +7,5 @@ run:install
 r:install
 	bundle exec rerun 'rackup'
 
-test:
-	bundle exec rspec
+test-unit:
+	bundle exec rspec spec/unit

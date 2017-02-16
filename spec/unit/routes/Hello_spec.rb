@@ -1,8 +1,6 @@
-require 'rspec'
 require 'rack/test'
-require 'test/unit'
 
-require_relative '../../app/routes/Hello.rb'
+require_relative '../../../app/routes/Hello.rb'
 
 describe 'Unit: Route: Hello' do
   include Rack::Test::Methods

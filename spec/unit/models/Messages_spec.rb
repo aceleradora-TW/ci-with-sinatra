@@ -1,6 +1,4 @@
-require 'rspec'
-
-require_relative '../../app/models/Messages.rb'
+require_relative '../../../app/models/Messages.rb'
 
 describe 'Unit: Model: Messages' do
 
