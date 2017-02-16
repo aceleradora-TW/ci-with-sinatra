@@ -103,13 +103,14 @@ Stack:
 - Sinatra
 - Bundler
 - RSpec
+- Make
 
 ### How it was set up
 
 ``` sh
 gem install bundler
 mkdir ci-with-sinatra && cd ci-with-sinatra && bundle init
-echo 'gem "sinatra" >> Gemfile'
+echo 'gem "sinatra"' >> Gemfile
 ```
 
 ## Running
