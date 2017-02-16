@@ -23,7 +23,7 @@ __Nice to have__:
 - Easily configurable
 - Be well documented
 - Come as a service
-- Intuitive build visibility UI (we'll miss you Snap CI :disappointed:)
+- Didactical build UI (clear steps of the build process visible to humans)
 
 
 ## Providers that satisfy the mandatory constraints
@@ -46,7 +46,6 @@ Nice to haves:
 - Come as a service
 
 
-
 ### Circle CI
 
 Status: `testing`
@@ -55,9 +54,9 @@ Pros:
 - Very fast
 
 Cons:
-- Identified `rspec` as runner, but failed to execute it through `bundle exec` with some parameters
-- Why do I have to open two pages to see my build status?
-- Why does it take the whole screen to show me basic build info?
+- UI is not very didactical:
+  - Build status info is segregated between two pages
+  - Why does it take the whole screen to show me basic build info?
 
 Nice to haves:
 - Easily configurable
@@ -67,14 +66,14 @@ Nice to haves:
 
 ### Shippable
 
-Status: `testing`
+Status: `rejected`
 
 Pros: None yet
-
 
 Cons:
 - Seems like an immature project
 - Slightly confusing UI
+- Slightly confusing docs
 
 Nice to haves:
 - Come as a service
@@ -92,8 +91,9 @@ Nice to haves:
 
 
 ## Rejected providers
-- __Semaphore__: paid.
-- __Magnum__: Probably going to be paid. Temporarily free as it is still in beta version.
+- __Shippable__: Too complex and confusing.
+- __Semaphore__: No free plan.
+- __Magnum__: Only free while it is in beta.
 - __Bitrise__: For mobile projects
 
 # Project configuration
