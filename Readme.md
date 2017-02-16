@@ -14,6 +14,7 @@ Sample app to test against different CI server providers. Like the following:
 - Bitrise
 - Magnum
 - GoCD
+- Semaphore
 
 ### Step by step sinatra setup
 
