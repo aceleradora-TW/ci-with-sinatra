@@ -76,12 +76,26 @@ Pros:
 Cons:
 - We must migrate to GitLab
 - UI Requires manual refresh
-- Excessively slow (a simple unit test stage takes 5 minutes)
+- Very slow (takes more than two minutes to run unit tests)
 
 Nice to haves:
-- Easily configurable
+- Very Easily configurable
 - Come as a service
-- Well documented
+- Very Well documented
+
+### Wrecker CI
+
+Status: `testing`
+
+Pros:
+- Easy to integrate with
+- Easy to configure
+
+Cons: None yet
+
+Nice to haves:
+- Very Easily configurable
+- Come as a service
 
 
 ### Shippable
@@ -100,8 +114,6 @@ Nice to haves:
 
 
 ## Untested providers
-
-- Wrecker
 - Drone
 - Lambda
 - Codeship
