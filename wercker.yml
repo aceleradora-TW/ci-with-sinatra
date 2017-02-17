@@ -14,3 +14,10 @@ unit_test:
       - script:
           name: reunit_test
           code: make test-unit
+
+deploy:
+  steps:
+    - heroku-deploy:
+      key: $HEROKU_KEY
+      user: $HEROKU_EMAIL
+      app-name: $HEROKU_STAGING_APP
