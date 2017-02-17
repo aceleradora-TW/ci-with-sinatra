@@ -14,3 +14,6 @@ whatever:
       - script:
           name: unit_test
           code: make test-unit
+      - script:
+          name: reunit_test
+          code: make test-unit
