@@ -10,3 +10,10 @@ build:
       - script:
           name: reunit_test
           code: make test-unit
+
+unit_test:
+  steps:
+      - bundle-install
+      - script:
+          name: reunit_test
+          code: make test-unit
