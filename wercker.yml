@@ -7,13 +7,6 @@ build:
       - script:
           name: unit_test
           code: make test-unit
-
-whatever:
-  steps:
-      - bundle-install
-      - script:
-          name: unit_test
-          code: make test-unit
       - script:
           name: reunit_test
           code: make test-unit
