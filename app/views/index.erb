@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Olá</title>
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+
+    <h2>Tudo completo</h2>
+
+    <div class="container">
+
+      <h1>Tarefas</h1>
+
+      <ul class="todo-items">
+        <% todos.each do |todo| %>
+        <li class="todo-item"><%= todo %></li>
+        <% end %>
+      </ul>
+
+    </div>
+
+    <script src="/js/todos.js" charset="utf-8"></script>
+
+  </body>
+</html>

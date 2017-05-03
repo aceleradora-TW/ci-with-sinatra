@@ -1,7 +1,0 @@
-language: ruby
-rvm:
-  - 2.3.0
-install:
-  - make install
-script:
-  - make test-unit

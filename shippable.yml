@@ -1,4 +1,0 @@
-language: ruby
-
-ci:
-  - make test

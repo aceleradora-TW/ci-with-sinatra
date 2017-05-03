@@ -12,4 +12,8 @@ class Hello < BaseRoute
     erb :buttons, :format => :html5
   end
 
+  get '/' do
+    erb :index, :format => :html5, :locals => { :todos => ['Lavar a roupa', 'Trocar o lixo', 'Dominar o mundo'] }
+  end
+
 end
