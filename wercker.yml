@@ -1,18 +1,11 @@
 ruby: 2.3.1
 box: ruby:2.3.1
 
-build:
-  steps:
-      - bundle-install
-      - script:
-          name: unit_test
-          code: make test-unit
-
 unit_test:
   steps:
       - bundle-install
       - script:
-          name: reunit_test
+          name: unit_test
           code: make test-unit
 
 deploy:
