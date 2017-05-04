@@ -1,7 +1,7 @@
 ruby: 2.3.1
 box: ruby:2.3.1
 
-unit_test:
+build:
   steps:
       - bundle-install
       - script:
