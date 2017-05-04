@@ -4,6 +4,9 @@ install:
 run:install
 	bundle exec rackup
 
+heroku-run:install
+	bundle exec rackup --port $PORT
+
 r:install
 	bundle exec rerun 'rackup'
 
