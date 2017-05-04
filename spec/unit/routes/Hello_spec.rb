@@ -9,6 +9,13 @@ describe 'Unit: Route: Hello' do
     Hello.new
   end
 
+  it 'says oi' do
+    get '/aceleradora'
+
+    expect(last_response).to be_ok
+    expect(last_response.body).to eq('Oi aceleradora')
+  end
+
   it 'says Dumbass!' do
 
     allow_any_instance_of(Messages).to receive(:dumbass).and_return('Dumbass')

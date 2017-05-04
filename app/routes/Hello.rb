@@ -8,6 +8,10 @@ class Hello < BaseRoute
     Messages.new.dumbass
   end
 
+  get '/aceleradora' do
+    'Oi Aceleradora'
+  end
+
   get '/buttons' do
     erb :buttons, :format => :html5
   end
