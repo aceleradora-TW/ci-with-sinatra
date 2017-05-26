@@ -13,7 +13,7 @@ describe 'Unit: Route: Hello' do
     get '/aceleradora'
 
     expect(last_response).to be_ok
-    expect(last_response.body).to eq('Oi Aceleradora')
+    expect(last_response.body).to eq('Oi Aceleradora Wercker louco')
   end
 
   it 'says Dumbass!' do
