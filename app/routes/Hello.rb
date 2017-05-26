@@ -9,7 +9,7 @@ class Hello < BaseRoute
   end
 
   get '/aceleradora' do
-    'Oi Aceleradora'
+    'Oi Aceleradora Wercker louco'
   end
 
   get '/buttons' do
